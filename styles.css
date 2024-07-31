@@ -1,0 +1,144 @@
+*,*::before,*::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(2, 87, 73, 0.74) 60%,rgba(7, 171, 186, 0.817));
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-container{
+    width: 90%;
+    max-width: 550px;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.btn{
+    
+    padding: unset;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+     margin-bottom:1px ;
+     background-color: rgba(1, 54, 41, 0.742);
+}
+
+.input-container input{
+    width: calc(100% - 200px);
+    height: 40px;
+    padding: 0 10px;
+    background-color: rgba(1, 54, 41, 0.742);
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+}
+
+.input-container input:focus{
+    outline: none;
+}
+
+.input-container input::placeholder{
+    color: white;
+    font-weight: 500;
+}
+
+.display-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nameIcon{
+    display: flex;
+    align-items: center;
+    
+    gap: 0 1rem;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+.nameIcon p{
+    
+    font-size:2rem ;
+}
+
+
+.nameIcon img{
+    width: 30px;
+   
+}
+
+.desc{
+    font-size:2rem ;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.descImg{
+    width: 30px;
+   
+}
+
+.temp{
+    font-size: 2.75rem;
+      font-weight: 700;
+}
+
+.diagram-container{
+    
+    display: flex;
+    width: 90%;
+    max-width: 550px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.parameter{
+   
+    width: 20%;
+    max-width: 200px;
+    background-color:  rgba(1, 54, 41, 0.742);
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px 1px;
+    align-items: center;
+    margin: 5px;
+
+
+}
+
+.parameter img{
+    width: 50px;
+    height: 50px;
+}

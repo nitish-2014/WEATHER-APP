@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <div class="wrapper">
+          <h1>Weather App</h1>
+
+
+
+
+        <div class="container">
+             
+            <form class="input-container" data-search-form >
+              <!-- <div class="input-container"> -->
+                <input placeholder="Search For City..."  class="placeholder" data-search-input> 
+                 <button    type="submit" class="btn" button1>
+                      <img src="search.png" width="10" height="10" >
+                  </button>
+           <!-- </div> -->
+
+            </form>
+
+
+          <!-- display weather -->
+              <div class="display-container">
+
+                   <div class="nameIcon">
+                      <p cityName></p>
+                      <img flagIcon>
+                   </div>
+
+                 <p class="desc" description></p>
+                 
+                  <img class="descImg" description-image >
+
+                  <p class="temp" temperature></p>
+               </div>
+
+
+
+           <!-- lower 3 box container -->
+                <div class="diagram-container">
+
+              <!-- 1st pocket -->
+                  <div class="parameter">
+                      <img src="wind.png" >
+                      <p>Windspeed</p>
+                      <p windspeed></p>
+                  </div>
+
+               <!-- 2 pocket -->
+                  <div class="parameter">
+                    <img src="humidity.png" >
+                    <p>Humidity</p>
+                    <p humidity></p>
+                  </div>
+
+                <!-- 3 pocket -->
+                  <div class="parameter">
+                    <img src="clouds.png" >
+                    <p>Clouds</p>
+                    <p clouds></p>
+                  </div>
+
+
+                </div>
+
+         </div>
+            
+
+
+
+
+      </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
